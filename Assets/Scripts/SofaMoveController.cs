@@ -37,8 +37,9 @@ public class SofaMoveController : MonoBehaviour
     {
 #if UNITY_EDITOR
         // If we're in the Unity Editor, take the W/A/D keys.
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
+            //_rb.velocity = Vector3.forward * _sofaMoveSpeed;
             _rb.AddForce(Vector3.forward * _sofaMoveSpeed, ForceMode.Impulse);
         }
         float hor = Input.GetAxisRaw("Horizontal");
