@@ -36,17 +36,22 @@ public class SofaMoveController : MonoBehaviour
     private void Update()
     {
 #if UNITY_EDITOR
+        _rb.centerOfMass = Vector3.zero;
         // If we're in the Unity Editor, take the W/A/D keys.
         if (Input.GetKey(KeyCode.W))
         {
             //_rb.velocity = Vector3.forward * _sofaMoveSpeed;
-            _rb.AddForce(Vector3.forward * _sofaMoveSpeed, ForceMode.Impulse);
+            _rb.AddForce(transform.forward * _sofaMoveSpeed, ForceMode.Impulse);
         }
         float hor = Input.GetAxisRaw("Horizontal");
         if (hor != 0)
         {
+            // _rb.MoveRotation(Quaternion.Euler(new Vector3(0, hor * _sofaTurnSpeed * Time.deltaTime, 0)));
+            // _rb.angularVelocity = new Vector3(0, hor * _sofaTurnSpeed, 0);
+            // _rb.AddTorque(new Vector3(0, hor * _sofaTurnSpeed, 0));
             transform.Rotate(0, hor * _sofaTurnSpeed * Time.deltaTime, 0);
         }
+        //transform.rotation = Quaternion.Euler( new Vector3(0, transform.rotation.y, 0));
 #else
         // If we're in VR, use the functions created below.
         HandleAcceleration();
