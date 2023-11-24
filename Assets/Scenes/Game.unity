@@ -1701,8 +1701,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _steeringWheelTransform: {fileID: 1756706483}
-  _sofaMoveSpeed: 0.2
-  _sofaTurnSpeed: 50
+  _sofaMoveSpeed: 0.1
+  _sofaTurnSpeed: 100
 --- !u!54 &1343560620
 Rigidbody:
   m_ObjectHideFlags: 0
