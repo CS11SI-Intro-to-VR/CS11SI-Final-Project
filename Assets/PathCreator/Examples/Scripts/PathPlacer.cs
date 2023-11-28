@@ -8,6 +8,7 @@ namespace PathCreation.Examples {
 
         public GameObject prefab;
         public GameObject holder;
+        public Vector3 rotationOffset;
         public float spacing = 3;
 
         const float minSpacing = .1f;
@@ -24,7 +25,7 @@ namespace PathCreation.Examples {
                 while (dst < path.length) {
                     Vector3 point = path.GetPointAtDistance (dst);
                     Quaternion rot = path.GetRotationAtDistance (dst);
-                    Instantiate (prefab, point, rot, holder.transform);
+                    Instantiate (prefab, point, Quaternion.Euler(rot.eulerAngles + rotationOffset), holder.transform);
                     dst += spacing;
                 }
             }
