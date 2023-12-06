@@ -11,6 +11,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class SteeringWheel : XRBaseInteractable
 {
+
     [SerializeField] private Transform wheelTransform;
 
     public UnityEvent<float> OnWheelRotated;
