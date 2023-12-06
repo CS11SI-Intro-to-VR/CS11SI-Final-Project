@@ -1045,6 +1045,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 30711448}
+  - component: {fileID: 30711449}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -1070,6 +1071,27 @@ Transform:
   - {fileID: 702519124}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &30711449
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30711447}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &32624840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,6 +2165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 52435146}
+  - component: {fileID: 52435147}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -2168,6 +2191,27 @@ Transform:
   - {fileID: 1028882237}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &52435147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52435145}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &56508474
 GameObject:
   m_ObjectHideFlags: 0
@@ -7301,6 +7345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 155338935}
+  - component: {fileID: 155338936}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -7326,6 +7371,27 @@ Transform:
   - {fileID: 614499263}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &155338936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155338934}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &156501682
 GameObject:
   m_ObjectHideFlags: 0
@@ -10546,6 +10612,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 223529131}
+  - component: {fileID: 223529132}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -10571,6 +10638,27 @@ Transform:
   - {fileID: 1673056303}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &223529132
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223529130}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &229250177
 GameObject:
   m_ObjectHideFlags: 0
@@ -12942,6 +13030,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 279537760}
+  - component: {fileID: 279537761}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -12967,6 +13056,27 @@ Transform:
   - {fileID: 1424291058}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &279537761
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279537759}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &280674736
 GameObject:
   m_ObjectHideFlags: 0
@@ -14636,6 +14746,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 312767603}
+  - component: {fileID: 312767604}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -14661,6 +14772,27 @@ Transform:
   - {fileID: 714832769}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &312767604
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312767602}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &312823330
 GameObject:
   m_ObjectHideFlags: 0
@@ -24595,6 +24727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 547069852}
+  - component: {fileID: 547069853}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -24620,6 +24753,27 @@ Transform:
   - {fileID: 1633512179}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &547069853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547069851}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &547235390
 GameObject:
   m_ObjectHideFlags: 0
@@ -30108,6 +30262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 661512161}
+  - component: {fileID: 661512162}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -30133,6 +30288,27 @@ Transform:
   - {fileID: 1580969654}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &661512162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661512160}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &661524275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38964,6 +39140,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 856108434}
+  - component: {fileID: 856108435}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -38989,6 +39166,27 @@ Transform:
   - {fileID: 1670535902}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &856108435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856108433}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &856795128
 GameObject:
   m_ObjectHideFlags: 0
@@ -44589,6 +44787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 988724928}
+  - component: {fileID: 988724929}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -44614,6 +44813,27 @@ Transform:
   - {fileID: 146421419}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &988724929
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988724927}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &989978858
 GameObject:
   m_ObjectHideFlags: 0
@@ -53199,7 +53419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1146607392
 Transform:
   m_ObjectHideFlags: 0
@@ -57199,6 +57419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1220786513}
+  - component: {fileID: 1220786514}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -57224,6 +57445,27 @@ Transform:
   - {fileID: 1670989256}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1220786514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220786512}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1220927139
 GameObject:
   m_ObjectHideFlags: 0
@@ -75493,6 +75735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1604138145}
+  - component: {fileID: 1604138146}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -75518,6 +75761,27 @@ Transform:
   - {fileID: 1110629791}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1604138146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604138144}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1605474151
 GameObject:
   m_ObjectHideFlags: 0
@@ -78104,6 +78368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1679337375}
+  - component: {fileID: 1679337376}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -78129,6 +78394,27 @@ Transform:
   - {fileID: 1457647224}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1679337376
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679337374}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1681711827
 GameObject:
   m_ObjectHideFlags: 0
@@ -78304,6 +78590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1685140945}
+  - component: {fileID: 1685140946}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -78329,6 +78616,27 @@ Transform:
   - {fileID: 684605583}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1685140946
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685140944}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1688023510
 GameObject:
   m_ObjectHideFlags: 0
@@ -79734,6 +80042,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1714409362}
+  - component: {fileID: 1714409363}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -79759,6 +80068,27 @@ Transform:
   - {fileID: 1054983137}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1714409363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714409361}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1715488323
 GameObject:
   m_ObjectHideFlags: 0
@@ -80432,6 +80762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1733318554}
+  - component: {fileID: 1733318555}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -80457,6 +80788,27 @@ Transform:
   - {fileID: 623652111}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1733318555
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733318553}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1734443174
 GameObject:
   m_ObjectHideFlags: 0
@@ -92365,6 +92717,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2017274510}
+  - component: {fileID: 2017274511}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -92390,6 +92743,27 @@ Transform:
   - {fileID: 1515537477}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &2017274511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017274509}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2017286131
 GameObject:
   m_ObjectHideFlags: 0
@@ -97817,6 +98191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2145100349}
+  - component: {fileID: 2145100350}
   m_Layer: 0
   m_Name: Building Prefab(Clone)
   m_TagString: Untagged
@@ -97842,6 +98217,27 @@ Transform:
   - {fileID: 600855073}
   m_Father: {fileID: 911870544}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &2145100350
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145100348}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.5, y: 8, z: 8.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2145889160
 GameObject:
   m_ObjectHideFlags: 0
