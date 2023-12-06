@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Net.NetworkInformation;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.XR;
 
@@ -29,13 +27,13 @@ public class SofaMoveController : MonoBehaviour
         // Initialize the local _rightController variable.
         List<InputDevice> devices = new();
         InputDevices.GetDevicesAtXRNode(XRNode.RightHand, devices);
-        Debug.Assert(devices.Count > 0, "Player is not playing in VR!", this);  // Will be NULL if we're not playing in VR.
+        Debug.Assert(devices.Count > 0, "Player is not playing in VR!", this);  // NULL if not in VR.
         _rightController = devices[0];
     }
 
     private void Update()
     {
-#if UNITY_EDITOR
+        /*
         _rb.centerOfMass = Vector3.zero;
         // If we're in the Unity Editor, take the W/A/D keys.
         if (Input.GetKey(KeyCode.W))
@@ -51,12 +49,9 @@ public class SofaMoveController : MonoBehaviour
             // _rb.AddTorque(new Vector3(0, hor * _sofaTurnSpeed, 0));
             transform.Rotate(0, hor * _sofaTurnSpeed * Time.deltaTime, 0);
         }
-        //transform.rotation = Quaternion.Euler( new Vector3(0, transform.rotation.y, 0));
-#else
-        // If we're in VR, use the functions created below.
+        */
         HandleAcceleration();
         HandleTurning();
-#endif
     }
 
     /// <summary>
@@ -65,11 +60,11 @@ public class SofaMoveController : MonoBehaviour
     /// </summary>
     private void HandleAcceleration()
     {
-        bool triggerValue;  // Temp variable to hold trigger button status!
-        if (_rightController.TryGetFeatureValue(CommonUsages.triggerButton, out triggerValue))
+        // Temp variable to hold trigger button status!
+        if (_rightController.TryGetFeatureValue(CommonUsages.triggerButton, out bool triggerValue) && triggerValue)
         {
             // Code is run when the trigger button is pressed.
-            Debug.Log("I have been triggered!!!");
+            _rb.AddForce(transform.forward * _sofaMoveSpeed, ForceMode.Impulse);
         }
     }
 
